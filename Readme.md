@@ -22,6 +22,6 @@ elements with each and every update. Enjoy!
 
 ## API
 
-View the [docs](docs.md)
+View the [docs](/Skookum/MatrixGrid/blob/master/docs.md)
 
 
