@@ -20,8 +20,8 @@
     options || (options = {});
     this.gridOffset = options.gridOffset || defaults.gridOffset;
     this.color = options.color || options.fill || defaults.color;
-    this.matrix = options.matrix || new Matrix().identity();
-    this.origin = options.origin || new Point(0, 0);
+    this.matrix = options.matrix || new Matrix();
+    this.origin = options.origin || new Point();
     this.width = options.width || defaults.width;
     this.elements = new Group();
 
