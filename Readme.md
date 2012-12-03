@@ -11,7 +11,7 @@ to you the Bonsai MatrixGrid!
 ``` javascript
 var myRect = new Rect(x, y, width, height).fill('random').addTo(stage);
 var myRectsMatrix = new MatrixGrid({ matrix: myRect.attr('matrix') });
-myRect.on('draw', function () {
+myRect.on('render', function () {
   myRectsMatrix.update(myRect.attr('matrix'));
 });
 ```
